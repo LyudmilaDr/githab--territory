@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 2px ;
+    padding:20px;
+    margin:50px;
+}
+.box:first-child {
+    border:1px solid aqua;
+}
+.box:last-child{
+    border:1px solid blue;   
+}
